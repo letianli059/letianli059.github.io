@@ -13,12 +13,12 @@ Before joining Harvard, I earned my Ph.D. from the Department of Statistics and 
 
 ## Research Interests
 
-• Reinforcement learning, Multi-armed bandits
+● Reinforcement learning, Multi-armed bandits
   
-• Dynamic pricing, Assortment optimization
+● Dynamic pricing, Assortment optimization
 
-• Dynamic treatment regimes, Heterogeneous effects exploration
+● Dynamic treatment regimes, Heterogeneous effects exploration
 
-• Large language models (LLMs)
+● Large language models (LLMs)
 
 
