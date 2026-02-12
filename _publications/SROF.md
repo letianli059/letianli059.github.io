@@ -10,4 +10,4 @@ paperurl:
 citation: 
 ---
 
-Runlin Zhou, Letian Li*, and Zemin Zheng
+Runlin Zhou, Letian Li†, and Zemin Zheng
