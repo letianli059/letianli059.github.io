@@ -12,4 +12,4 @@ bibtexurl:
 citation:
 ---
 
-Letian Li, Runlin Zhou, and Zemin Zheng
+Letian Li, Runlin Zhou, and Zemin Zheng*
