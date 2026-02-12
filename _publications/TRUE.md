@@ -2,13 +2,13 @@
 title: "Truncated Fusion Learning on Supervised Clustering and Its Fast Stagewise Algorithm"
 collection: publications
 category: journal
-permalink: ''
-excerpt: ''
+permalink: 
+excerpt: 
 date: 2025-12-31
 venue: 'INFORMS Journal on Computing'
-slidesurl: ''
+slidesurl: 
 paperurl: 'https://pubsonline.informs.org/doi/abs/10.1287/ijoc.2024.0840?journalCode=ijoc'
-citation: ''
+citation: 
 ---
 
-Letian Li, Yang Li*, Jie Zhang, and Zemin Zheng
+Letian Li, Yang Li*, Jie Zhang, and Zemin Zheng*
