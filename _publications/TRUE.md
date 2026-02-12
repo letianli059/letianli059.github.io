@@ -12,4 +12,4 @@ bibtexurl:
 citation: 
 ---
 
-Letian Li, Yang Li†, Jie Zhang, and Zemin Zheng†
+Letian Li, Yang Li, Jie Zhang, and Zemin Zheng
