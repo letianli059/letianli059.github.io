@@ -1,7 +1,7 @@
 ---
 title: "Personalized federated learning on large-scale association networks"
 collection: publications
-category: manuscripts
+category: journal
 permalink:  
 excerpt: 
 date: 2025-07-18
