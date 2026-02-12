@@ -4,7 +4,7 @@ collection: publications
 category: manuscript
 permalink: 
 excerpt: 
-date: 2026-01-01
+date: 
 venue: 
 paperurl: 
 citation: 
