@@ -1,0 +1,11 @@
+---
+title: "Row-wise Fusion Regularization: An Interpretable Personalized Federated Learning Framework in Large-Scale Scenarios"
+collection: publications
+category: journal
+permalink: 
+excerpt: 
+date: 2026-01-01
+venue: 'Stat'
+paperurl:
+citation: 
+---
