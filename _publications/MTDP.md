@@ -4,8 +4,6 @@ collection: publications
 category: manuscript
 permalink: 
 excerpt: 
-date: 
-venue: 
 paperurl: 
 citation: 
 ---
