@@ -1,7 +1,7 @@
 ---
 title: "Truncated Fusion Learning on Supervised Clustering and Its Fast Stagewise Algorithm"
 collection: publications
-category: manuscripts
+category: journal
 permalink: 
 excerpt: 
 date: 2025-12-31
