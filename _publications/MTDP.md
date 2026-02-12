@@ -10,4 +10,4 @@ paperurl:
 citation: 
 ---
 
-Jie Zhang, Letian Li(co-frst author), and Yang Li*
+Jie Zhang, Letian Li(co-frst author), and Yang Li†
