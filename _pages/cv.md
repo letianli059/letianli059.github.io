@@ -21,8 +21,9 @@ Work experience
 
 Honors and Awards
 ======
-* National Scholarship for Doctoral Students, 2025
-* Outstanding Graduate Award, 2020
+* Pyle Fellowship, Harvard Medical School, 2026
+* National Scholarship for Doctoral Students, Ministry of Education of China, 2025
+* Outstanding Graduate Award, Northwest University, 2020
 
 Publications
 ======
