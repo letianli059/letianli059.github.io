@@ -1,6 +1,6 @@
 ---
 title: "Robust cooperative multi-agent recommendation with mixed sources: A provably efficient bandit approach"
-collection: publications
+collection: publications 
 category: manuscript
 permalink: 
 excerpt: 
