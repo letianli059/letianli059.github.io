@@ -6,11 +6,7 @@
   {% assign teaser = site.teaser %}
 {% endif %}
 
-{% if post.id %}
-  {% assign title = post.title | markdownify | remove: "<p>" | remove: "</p>" %}
-{% else %}
-  {% assign title = post.title %}
-{% endif %}
+{% assign title = post.title | strip_html | markdownify | remove: "<p>" | remove: "</p>" %}
 
 <div class="{{ include.type | default: "list" }}__item">
   <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
@@ -28,7 +24,7 @@
     {% endif %}
 
     <h2 class="archive__item-title" itemprop="headline">
-      {{ title }}
+      {{ title | remove: '<a href="' | remove: '</a>' }}
     </h2>
 
     {% if post.read_time %}
@@ -53,7 +49,7 @@
 
     {% if post.excerpt %}
       <p class="archive__item-excerpt" itemprop="description">
-        {{ post.excerpt | markdownify }}
+        {{ post.excerpt | strip_html }}
       </p>
     {% endif %}
 
