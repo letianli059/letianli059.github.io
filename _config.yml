@@ -225,16 +225,16 @@ kramdown:
 collections:
   teaching:
     output: false
-    permalink: 
+    permalink: /:collection/:path/
   publications:
     output: false
-    permalink:
+    permalink: /:collection/:path/
   portfolio:
-    output: false
-    permalink:
+    output: true
+    permalink: /:collection/:path/
   talks:
     output: false
-    permalink: 
+    permalink: /:collection/:path/
 
 
 # These settings control how pages and collections are included in the site
@@ -301,10 +301,10 @@ sass:
 
 
 # Outputting
-#permalink: 
+permalink: /:categories/:title/
 # paginate: 5 # amount of posts to show
 # paginate_path: /page:num/
-#timezone: Etc/UTC # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: Etc/UTC # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
 # Plugins
