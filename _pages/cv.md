@@ -17,13 +17,19 @@ Education
 Work experience
 ======
 * 2026 - Present: Postdoctoral Research Fellow
-  * Harvard Pilgrim Health Care Institute, Harvard Medical School
+  * Harvard Medical School
+* 2026 - Present: Postdoctoral Research Fellow
+  * Harvard Pilgrim Health Care Institute
+* 2020: Research Intern
+  * Zhongtai Securities Co., Ltd.
 
 Honors and Awards
 ======
 * Pyle Fellowship, Harvard Medical School, 2026
 * National Scholarship for Doctoral Students, Ministry of Education of China, 2025
 * Outstanding Graduate Award, Northwest University, 2020
+* Annual Best Paper Award, Journal of Financial Development Research, 2020
+* First-Class Scholarship, Northwest University, 2016-2019
 
 Publications
 ======
