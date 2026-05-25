@@ -1,5 +1,5 @@
 ---
-title: "Robust cooperative multi-agent recommendation with mixed sources: A provably efficient bandit approach"
+title: "Robust Cooperative Multi-Agent Recommendation with Mixed Sources: A Provably Efficient Bandit Approach"
 collection: publications 
 category: manuscript
 permalink: 
