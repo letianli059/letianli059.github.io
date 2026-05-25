@@ -1,5 +1,5 @@
 ---
-title: "Heterogeneity pursuit in large-scale association networks via REACH"
+title: "Heterogeneity Pursuit in Large-Scale Association Networks via REACH"
 collection: publications
 category: journal
 permalink: 
