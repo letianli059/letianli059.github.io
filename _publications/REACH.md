@@ -11,4 +11,4 @@ paperurl:
 citation: 
 ---
 
-Letian Li, Zemin Zheng†, Bo Zhang, and Jie Zhang†
+Letian Li, Zemin Zheng, Bo Zhang, and Jie Zhang
