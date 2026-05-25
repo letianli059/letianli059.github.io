@@ -10,4 +10,4 @@ paperurl:
 citation: 
 ---
 
-Letian Li, Jie Wu, Daoji Li, and Zemin Zheng†
+Letian Li, Jie Wu, Daoji Li, and Zemin Zheng
