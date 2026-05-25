@@ -20,7 +20,7 @@ Work experience
   * Harvard Medical School
 * 2026 - Present: Postdoctoral Research Fellow
   * Harvard Pilgrim Health Care Institute
-* 2020: Research Intern
+* 2019: Research Intern
   * Zhongtai Securities Co., Ltd.
 
 Honors and Awards
