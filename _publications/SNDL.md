@@ -1,5 +1,5 @@
 ---
-title: "A Deep Learning Approach for Contextual Dynamic Pricing with High-Dimensional Data"
+title: "Sparse Neural Demand Learning for High-Dimensional Contextual Dynamic Pricing"
 collection: publications
 category: manuscript
 permalink: 
