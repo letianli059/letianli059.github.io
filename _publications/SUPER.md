@@ -1,5 +1,5 @@
 ---
-title: "SUPER: An Efficient Procedure for Subgroup Identification"
+title: "SUPER: A Tuning-Free Procedure for Subgroup Identification"
 collection: publications
 category: manuscript
 permalink: 
