@@ -1,5 +1,5 @@
 ---
-title: "SUPER: A Tuning-Free Procedure for Subgroup Identification"
+title: "SUPER: Computationally Efficient Scale-Adaptive Fusion Penalized Regression for Subgroup Identification"
 collection: publications
 category: manuscript
 permalink: 
