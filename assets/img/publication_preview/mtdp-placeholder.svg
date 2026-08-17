@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-labelledby="title desc">
+  <title id="title">MTDP preprint preview placeholder</title>
+  <desc id="desc">Temporary preview image to be replaced by the author.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1b1724" />
+      <stop offset="1" stop-color="#563472" />
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" rx="36" fill="url(#bg)" />
+  <rect x="72" y="72" width="656" height="12" rx="6" fill="#c69bf4" />
+  <text x="400" y="310" fill="#ffffff" font-family="Arial, sans-serif" font-size="108" font-weight="700" text-anchor="middle">MTDP</text>
+  <text x="400" y="390" fill="#e3d3f5" font-family="Arial, sans-serif" font-size="32" text-anchor="middle">preview image forthcoming</text>
+</svg>

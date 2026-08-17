@@ -1,0 +1,21 @@
+"STAT":
+  url: https://onlinelibrary.wiley.com/journal/20491573
+  color: "#6f42c1"
+
+"IJOC":
+  url: https://pubsonline.informs.org/journal/ijoc
+  color: "#005ea8"
+
+"S&C":
+  url: https://link.springer.com/journal/11222
+  color: "#087f5b"
+
+"FDR":
+  color: "#9a6700"
+
+"PREPRINT":
+  color: "#495057"
+
+"JBES":
+  url: https://www.tandfonline.com/journals/ubes20
+  color: "#a23b3b"

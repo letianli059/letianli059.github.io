@@ -1,96 +1,69 @@
-# Academic Pages
-**Academic Pages is a GitHub Pages template for personal and professional portfolio-oriented websites.**
+# Letian Li — Personal Website
 
-![Academic Pages template example](images/themes/homepage-light.png "Academic Pages template example")
+This repository contains the source for [letianli059.github.io](https://letianli059.github.io), built with the free, MIT-licensed [al-folio](https://github.com/alshedivat/al-folio) Jekyll starter.
 
-# Getting Started
+The site intentionally contains only five public sections:
 
-1. Register a GitHub account if you don't have one and confirm your e-mail (required!)
-1. Click the "Use this template" button in the top right.
-1. On the "New repository" page, enter your public repository name as "[your GitHub username].github.io", which will also be your website's URL.
-1. Set site-wide configuration and add your content.
-1. Upload any files (like PDFs, .zip files, etc.) to the `files/` directory. They will appear at https://[your GitHub username].github.io/files/example.pdf.
-1. Check status by going to the repository settings, in the "GitHub pages" section
-1. (Optional) Use the Jupyter notebooks or python scripts in the `markdown_generator` folder to generate markdown files for publications and talks from a TSV file.
+- About (`_pages/about.md`)
+- Publications (`_bibliography/papers.bib` and `_pages/publications.md`)
+- Talks (`_pages/talks.md`)
+- Awards & Service (`_pages/awards.md`)
+- CV (`_data/cv.yml` and `_pages/cv.md`)
 
-See more info at https://academicpages.github.io/
+Blog, projects, repositories, teaching, people, books, news, and submenu pages are intentionally absent until real content exists.
 
-## Running locally
+## Updating the site
 
-When you are initially working on your website, it is very useful to be able to preview the changes locally before pushing them to GitHub. To work locally you will need to:
+You do **not** need to clone the repository again for every update. Reuse this local copy:
 
-1. Clone the repository and made updates as detailed above.
-
-### Using a different IDE
-1. Make sure you have ruby-dev, bundler, and nodejs installed
-    
-    On most Linux distribution and [Windows Subsystem Linux](https://learn.microsoft.com/en-us/windows/wsl/about) the command is:
-    ```bash
-    sudo apt install ruby-dev ruby-bundler nodejs
-    ```
-    If you see error `Unable to locate package ruby-bundler`, `Unable to locate package nodejs `, run the following:
-    ```bash
-    sudo apt update && sudo apt upgrade -y
-    ```
-    then try run `sudo apt install ruby-dev ruby-bundler nodejs` again.
-
-    On MacOS the commands are:
-    ```bash
-    brew install ruby
-    brew install node
-    gem install bundler
-    ```
-1. Run `bundle install` to install ruby dependencies. If you get errors, delete Gemfile.lock and try again.
-
-    If you see file permission error like `Fetching bundler-2.6.3.gem ERROR:  While executing gem (Gem::FilePermissionError) You don't have write permissions for the /var/lib/gems/3.2.0 directory.` or `Bundler::PermissionError: There was an error while trying to write to /usr/local/bin.`
-    Install Gems Locally (Recommended):
-    ```bash
-    bundle config set --local path 'vendor/bundle'
-    ```
-    then try run `bundle install` again. If succeeded, you should see a folder called `vendor` and `.bundle`.
-
-1. Run `jekyll serve -l -H localhost` to generate the HTML and serve it from `localhost:4000` the local server will automatically rebuild and refresh the pages on change to Markdown (*.md) and HTML files, while changes to the core template and configuration (i.e., `_config.yml`) will require stoping and restarting Jekyll.
-    You may also try `bundle exec jekyll serve -l -H localhost` to ensure jekyll to use specific dependencies on your own local machine.
-
-If you are running on Linux it may be necessary to install some additional dependencies prior to being able to run locally: `sudo apt install build-essential gcc make`
-
-## Using Docker
-
-Working from a different OS, or just want to avoid installing dependencies? You can use the provided `Dockerfile` to build a container that will run the site for you if you have [Docker](https://www.docker.com/) installed.
-
-You can build and execute the container by running the following command in the repository:
-
-```bash
-chmod -R 777 .
-docker compose up
+```powershell
+Set-Location 'F:\Working\Personal Website'
+git switch master
+git pull --ff-only origin master
+git switch -c content-update-YYYY-MM-DD
 ```
 
-You should now be able to access the website from `localhost:4000`.
+Edit the relevant Markdown, YAML, or BibTeX file, preview the result, then merge and push only after review.
 
-### Using the DevContainer in VS Code
+## Local preview
 
-If you are using [Visual Studio Code](https://code.visualstudio.com/) you can use the [Dev Container](https://code.visualstudio.com/docs/devcontainers/containers) that comes with this Repository. Normally VS Code detects that a development container configuration is available and asks you if you want to use the container. If this doesn't happen you can manually start the container by **F1->DevContainer: Reopen in Container**. This restarts your VS Code in the container and automatically hosts your academic page locally on http://localhost:4000. All changes will be updated live to that page after a few seconds.
+The most isolated Windows workflow is Docker Desktop:
 
-# Maintenance
+```powershell
+docker compose up --build
+```
 
-Bug reports and feature requests to the template should be [submitted via GitHub](https://github.com/academicpages/academicpages.github.io/issues/new/choose). For questions concerning how to style the template, please feel free to start a [new discussion on GitHub](https://github.com/academicpages/academicpages.github.io/discussions).
+Open <http://localhost:8080>. Stop the preview with `Ctrl+C`.
 
-This repository was forked (then detached) by [Stuart Geiger](https://github.com/staeiou) from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/), which is © 2016 Michael Rose and released under the MIT License (see LICENSE.md). It is currently being maintained by [Robert Zupko](https://github.com/rjzupkoii) and additional maintainers would be welcomed.
+Without Docker, install Ruby 3.3.x with Devkit, Bundler 4.0.6, Node.js 20, and ImageMagick, then run:
 
-## Bugfixes and enhancements
+```powershell
+gem install bundler -v 4.0.6
+bundle install
+npm ci
+bundle exec jekyll serve --livereload
+```
 
-If you have bugfixes and enhancements that you would like to submit as a pull request, you will need to [fork](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/fork-a-repo) this repository as opposed to using it as a template. This will also allow you to [synchronize your copy](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/syncing-a-fork) of template to your fork as well.
+## Publication conventions
 
-Unfortunately, one logistical issue with a template theme like Academic Pages that makes it a little tricky to get bug fixes and updates to the core theme. If you use this template and customize it, you will probably get merge conflicts if you attempt to synchronize. If you want to save your various .yml configuration files and markdown files, you can delete the repository and fork it again. Or you can manually patch.
+Each BibTeX record uses one of these status values:
 
----
-<div align="center">
-    
-![pages-build-deployment](https://github.com/academicpages/academicpages.github.io/actions/workflows/pages/pages-build-deployment/badge.svg)
-[![GitHub contributors](https://img.shields.io/github/contributors/academicpages/academicpages.github.io.svg)](https://github.com/academicpages/academicpages.github.io/graphs/contributors)
-[![GitHub release](https://img.shields.io/github/v/release/academicpages/academicpages.github.io)](https://github.com/academicpages/academicpages.github.io/releases/latest)
-[![GitHub license](https://img.shields.io/github/license/academicpages/academicpages.github.io?color=blue)](https://github.com/academicpages/academicpages.github.io/blob/master/LICENSE)
+- `published`: shown under Published & forthcoming; verified entries include Abs, DOI, HTML, and PDF buttons when a stable PDF URL exists.
+- `accepted`: shown in the same Published & forthcoming section and clearly labeled as awaiting online publication.
+- `manuscript`: shown under Selected preprints with its own thumbnail and a per-entry submission status; `preprint_order` keeps revision entries first, followed by entries grouped by Letian's `author_position`.
 
-[![GitHub stars](https://img.shields.io/github/stars/academicpages/academicpages.github.io)](https://github.com/academicpages/academicpages.github.io)
-[![GitHub forks](https://img.shields.io/github/forks/academicpages/academicpages.github.io)](https://github.com/academicpages/academicpages.github.io/fork)
-</div>
+Published, accepted, and manuscript entries use al-folio's native badge and thumbnail layout. Final PNG previews and fallback SVG placeholders live in `assets/img/publication_preview/`; each BibTeX record points to the active image through its `preview` field. Keep filenames lowercase and avoid spaces because GitHub Pages paths are case-sensitive. PDF source artwork in that directory stays local and is ignored by Git after its PNG export is created.
+
+If an approved private-manuscript abstract is not yet available, omit the BibTeX `abstract` field so the Abs button remains hidden. Add it only after the author supplies the approved abstract.
+
+## Deployment
+
+`.github/workflows/deploy.yml` builds matching site changes pushed to `master` or `main` and publishes the generated `_site` directory to `gh-pages`.
+
+For the first al-folio release:
+
+1. Approve a local preview and give GitHub Actions read/write repository permission.
+2. Merge the approved redesign into `master`, then wait for the **Deploy site** workflow to succeed and create `gh-pages`.
+3. In **Settings → Pages**, select **Deploy from a branch**, choose `gh-pages` and `/(root)`, then wait for the Pages deployment to finish.
+
+Until that release is approved, keep the redesign on its separate branch; pushing `al-folio-redesign` alone does not deploy it.

@@ -1,0 +1,92 @@
+cv:
+  name: Letian Li
+  label: Postdoctoral Research Fellow in Statistics and Biostatistics
+  email: letianli1998@gmail.com
+  website: https://letianli059.github.io
+  address:
+    city: Boston
+    region: MA
+    countryCode: US
+  summary: >
+    Postdoctoral Research Fellow at Harvard Medical School and the Harvard Pilgrim Health Care Institute. My research focuses on reinforcement learning, multi-armed bandits, dynamic pricing, dynamic treatment regimes, heterogeneous effects, and large language models.
+
+  sections:
+    Education:
+      - institution: University of Science and Technology of China
+        area: Statistics
+        studyType: Ph.D.
+        location: Hefei, Anhui, China
+        start_date: 2020
+        end_date: 2025
+
+      - institution: Northwest University
+        area: Statistics
+        studyType: B.S.
+        location: Xi'an, Shaanxi, China
+        start_date: 2016
+        end_date: 2020
+
+    Experience:
+      - company: Harvard Medical School
+        position: Postdoctoral Research Fellow
+        location: Boston, MA, USA
+        start_date: Jan 2026
+        end_date: Present
+
+      - company: Harvard Pilgrim Health Care Institute
+        position: Postdoctoral Research Fellow
+        location: Boston, MA, USA
+        start_date: Jan 2026
+        end_date: Present
+
+      - company: Zhongtai Securities Co., Ltd.
+        position: Research Intern
+        location: Jinan, Shandong, China
+        start_date: Jan 2019
+        end_date: Jun 2019
+        summary: Quantitative and Statistical Methods
+
+    Awards:
+      - title: Pyle Fellowship
+        awarder: Harvard Medical School
+        date: "2026–2027"
+        summary: Selected for Fellowship Support to Advance Postdoctoral Research
+
+      - title: National Scholarship for Doctoral Students
+        awarder: Ministry of Education of China
+        date: 2025
+        summary: Awarded to the Top 3% of Ph.D. Students Nationwide
+
+      - title: Outstanding Graduate Award
+        awarder: Northwest University
+        date: 2020
+        summary: Awarded to the Top 5% of Graduates
+
+      - title: Annual Best Paper Award
+        awarder: Journal of Financial Development Research
+        date: 2020
+        summary: Best Paper of the Year
+
+      - title: First-Class Scholarship
+        awarder: Northwest University
+        date: "2016–2019"
+        summary: Highest Scholarship Honor for Undergraduate Students; awarded every academic year.
+
+    Professional Service:
+      - bullet: INFORMS Journal on Computing
+      - bullet: Journal of Business & Economic Statistics
+      - bullet: Biometrics
+      - bullet: Statistics and Computing
+      - bullet: Stat
+
+    Research Interests:
+      - bullet: Reinforcement learning and multi-armed bandits
+      - bullet: Dynamic pricing and assortment optimization
+      - bullet: Dynamic treatment regimes and heterogeneous effects exploration
+      - bullet: Large language models (LLMs)
+
+    Talks:
+      - bullet: >
+          **Robust Collaborative Multi-Agent Recommendation With Mixed Sources: A Provably Efficient Bandit Approach.** INFORMS Conference on Quality, Statistics, and Reliability (2026 ICQSR), Hong Kong SAR, China, July 8, 2026.
+      - bullet: >
+          **Truncated Fusion Learning on Supervised Clustering and Its Fast Stagewise Algorithm.** The 3rd Joint Conference on Statistics and Data Science in China (2025 JCSDS), Hangzhou, Zhejiang, China, July 13, 2025.
