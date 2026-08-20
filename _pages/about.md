@@ -27,6 +27,8 @@ I am a Postdoctoral Research Fellow in Statistics and Biostatistics at Harvard M
 
 Before joining Harvard, I earned my Ph.D. from the Department of Statistics and Finance at the University of Science and Technology of China (USTC), supervised by [Prof. Zemin Zheng](https://bs.ustc.edu.cn/english/profile.php?id=302). I received my bachelor's degree in Statistics from the School of Mathematics at Northwest University.
 
+I am always happy to exchange research ideas and explore potential collaborations.
+
 ## Research interests
 
 - Reinforcement learning and multi-armed bandits
