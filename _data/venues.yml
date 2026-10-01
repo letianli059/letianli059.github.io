@@ -6,6 +6,10 @@
   url: https://pubsonline.informs.org/journal/ijoc
   color: "#005ea8"
 
+"MOR":
+  url: https://pubsonline.informs.org/journal/moor
+  color: "#005ea8"
+
 "S&C":
   url: https://link.springer.com/journal/11222
   color: "#087f5b"
