@@ -31,7 +31,7 @@ I am always happy to exchange research ideas and explore potential collaboration
 
 ## Research interests
 
-- Reinforcement learning and multi-armed bandits
-- Dynamic pricing and assortment optimization
-- Dynamic treatment regimes and heterogeneous effects exploration
-- Large language models (LLMs)
+- Large language models (LLMs) and digital twins
+- agents for operations management
+- Dynamic pricing and online decision-making
+- Dynamic treatment regimes
