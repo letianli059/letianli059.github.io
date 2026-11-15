@@ -32,6 +32,6 @@ I am always happy to exchange research ideas and explore potential collaboration
 ## Research interests
 
 - Large language models (LLMs) and digital twins
-- agents for operations management
+- Agents for operations management
 - Dynamic pricing and online decision-making
 - Dynamic treatment regimes
